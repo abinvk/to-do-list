@@ -1,8 +1,8 @@
-const todoname = [{
-    name: 'readig',
+const todoname   = [{
+    name: 'Readig',
     date: '2024-06-10'
 },{
-    name: 'writing',
+    name: 'Writing',
     date: '2024-06-11'
 }]
 rendername();

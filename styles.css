@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.js-name-list,
+.input-grid{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+.input-grid input{
+    padding: 5px;
+    font-size: 16px;
+    align-items: stretch;
+    align-items: center;
+    font-weight: bold;
+}
+.add-button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.remove-btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
